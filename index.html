@@ -1,132 +1,187 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <title>Portfolio</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="portfoliostyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Open+Sans:wght@300&family=Playfair+Display:ital@1&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="portfoliostyle.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Open+Sans:wght@300&family=Playfair+Display:ital@1&family=Shadows+Into+Light&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-<body>
-  <!-- Add a menu:
+  <body>
+    <!-- Add a menu:
    Log in / Sign up - when the user is not logged in
    Username / Log out - when the user is logged in
   -->
-  <div data-netlify-identity-menu></div>
+    <div data-netlify-identity-menu></div>
 
-  <!-- Add a simpler button:
+    <!-- Add a simpler button:
     Simple button that will open the modal.
   -->
-  <div data-netlify-identity-button>Login with Netlify Identity</div>
+    <div data-netlify-identity-button>Login with Netlify Identity</div>
 
-  
-  <div class="row img-wrap">
-    <div class="col"><img src="fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg" class="img-bg navbgimage">
-      <div class="img-content">
-        <ul class="list-inline float-right body p-2">
-        <li class="list-inline-item px-3"><a class="nav-link" href= "login">Log in</a></li>
-          <li class="list-inline-item px-3"><a class="nav-link" href="#home">Home</a></li>
-          <li class="list-inline-item px-3"><a class="nav-link" href="#about">About</a></li>
-          <li class="list-inline-item px-3"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-          <li class="list-inline-item px-3"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </div>
-      <div class="row">
-        <div class="col h1nav">
-          <h1 id="home" class="text-center">Cas Penrod</h1>
-          <h3 class="text-center"> Junior Full Stack Developer</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row mt-5">
-      <div class="col-5 about">
-        <h1 id="about">About</h1>
-        <h2 class="mission">Mission:Impossible</h2>
-        <p>Hey I'm Cas! I'm from Tampa, Florida.</p>
-        <p>I'd love to take about my experience.</p>
-      </div>
+    <div class="row img-wrap">
       <div class="col">
-        <div class="justify-content-start">
-          <a href="https://github.com/CasPenrod"><img src="gitcontributions.png" class="gitc"></a>
+        <img
+          src="fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg"
+          class="img-bg navbgimage"
+        />
+        <div class="img-content">
+          <ul class="list-inline float-right body p-2">
+            <li class="list-inline-item px-3">
+              <a class="nav-link" href="login">Log in</a>
+            </li>
+            <li class="list-inline-item px-3">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="list-inline-item px-3">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="list-inline-item px-3">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="list-inline-item px-3">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="row img-wrap mt-5">
-    <div class="col"><img src="mohammad-rahmani-N5bT5RctFZ8-unsplash.jpg" class="middleimage">
-      <div class="middleimgcontent">
-        <div id="portfolio" class="text-center">
-          <h1>Portfolio</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row mt-5">
-      <div class="col-6 justify-content-center">
-        <a href="https://caspenrod.github.io/StardewValleyWikiRemake/"><img src="portfoliosdvwiki.png"
-            class="sdvwiki border border-secondary">
-        </a>
-      </div>
-      <div class="col-6 justify-content-center">
-        <a href="https://caspenrod.github.io/CasseysFajitaRecipe/index.html"><img src="portfoliorecipewebsite.png"
-            class="recipepage border border-secondary">
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class="row img-wrap mt-5">
-    <div class="col"><img src="ben-kolde-bs2Ba7t69mM-unsplash.jpg" class="quoteimage">
-      <div class="contactimgcontent">
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row mt-5 formheight">
-      <div class="col">
-        <h1 class="contacttext text-center" id="contact">Contact</h1>
-        <form name="portfoliocontact" method="POST" data-netlify="true" onSubmit="submit">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <textarea class="form-control" placeholder="Name" rows="1"></textarea>
-            <label for="email">Email</label>
-            <input type="email" class="form-control" placeholder="Email Address">
-            <label for="message">Message</label>
-            <textarea class="form-control" placeholder="Message" rows="7"></textarea>
-            <button type="submit" class="btn btn-primary">Send</button>
+        <div class="row">
+          <div class="col h1nav">
+            <h1 id="home" class="text-center">Cas Penrod</h1>
+            <h3 class="text-center">Junior Full Stack Developer</h3>
           </div>
-        </form>
+        </div>
       </div>
     </div>
-  </div>
+    <div class="container-fluid">
+      <div class="row mt-5">
+        <div class="col-5 about">
+          <h1 id="about">About</h1>
+          <h2 class="mission">Mission:Impossible</h2>
+          <p>Hey I'm Cas! I'm from Tampa, Florida.</p>
+          <p>I'd love to take about my experience.</p>
+        </div>
+        <div class="col">
+          <div class="justify-content-start">
+            <a href="https://github.com/CasPenrod"
+              ><img src="gitcontributions.png" class="gitc"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row img-wrap mt-5">
+      <div class="col">
+        <img
+          src="mohammad-rahmani-N5bT5RctFZ8-unsplash.jpg"
+          class="middleimage"
+        />
+        <div class="middleimgcontent">
+          <div id="portfolio" class="text-center">
+            <h1>Portfolio</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row mt-5">
+        <div class="col-6 justify-content-center">
+          <a href="https://caspenrod.github.io/StardewValleyWikiRemake/"
+            ><img
+              src="portfoliosdvwiki.png"
+              class="sdvwiki border border-secondary"
+            />
+          </a>
+        </div>
+        <div class="col-6 justify-content-center">
+          <a href="https://caspenrod.github.io/CasseysFajitaRecipe/index.html"
+            ><img
+              src="portfoliorecipewebsite.png"
+              class="recipepage border border-secondary"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row img-wrap mt-5">
+      <div class="col">
+        <img src="ben-kolde-bs2Ba7t69mM-unsplash.jpg" class="quoteimage" />
+        <div class="contactimgcontent"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mt-5 formheight">
+        <div class="col">
+          <h1 class="contacttext text-center" id="contact">Contact</h1>
+          <form
+            name="portfoliocontact"
+            method="POST"
+            data-netlify="true"
+            onSubmit="submit"
+          >
+            <div class="form-group">
+              <label for="name">Name</label>
+              <textarea
+                class="form-control"
+                placeholder="Name"
+                rows="1"
+              ></textarea>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email Address"
+              />
+              <label for="message">Message</label>
+              <textarea
+                class="form-control"
+                placeholder="Message"
+                rows="7"
+              ></textarea>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-</body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+    ></script>
+  </body>
 </html>
