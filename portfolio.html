@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <!-- Add a menu:
+   Log in / Sign up - when the user is not logged in
+   Username / Log out - when the user is logged in
+  -->
+    <div data-netlify-identity-menu></div>
+
+    <!-- Add a simpler button:
+    Simple button that will open the modal.
+  -->
+    <div data-netlify-identity-button>Login with Netlify Identity</div>
+
+        <div class="row">
+          <div class="col h1nav">
+            <h1 id="home" class="text-center">Cas Penrod</h1>
+            <h3 class="text-center">Junior Full Stack Developer</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row mt-5">
+        <div class="col-5 about">
+          <h1 id="about">About</h1>
+          <h2 class="mission">Mission:Impossible</h2>
+          <p>Hey I'm Cas! I'm from Tampa, Florida.</p>
+          <p>I'd love to take about my experience.</p>
+        </div>
+        <div class="col">
+          <div class="justify-content-start">
+            <a href="https://github.com/CasPenrod"
+              ><img src="gitcontributions.png" class="gitc"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row img-wrap mt-5">
+      <div class="col">
+        <img
+          src="mohammad-rahmani-N5bT5RctFZ8-unsplash.jpg"
+          class="middleimage"
+        />
+        <div class="middleimgcontent">
+          <div id="portfolio" class="text-center">
+            <h1>Portfolio</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row mt-5">
+        <div class="col-6 justify-content-center">
+          <a href="https://caspenrod.github.io/StardewValleyWikiRemake/"
+            ><img
+              src="portfoliosdvwiki.png"
+              class="sdvwiki border border-secondary"
+            />
+          </a>
+        </div>
+        <div class="col-6 justify-content-center">
+          <a href="https://caspenrod.github.io/CasseysFajitaRecipe/index.html"
+            ><img
+              src="portfoliorecipewebsite.png"
+              class="recipepage border border-secondary"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row img-wrap mt-5">
+      <div class="col">
+        <img src="ben-kolde-bs2Ba7t69mM-unsplash.jpg" class="quoteimage" />
+        <div class="contactimgcontent"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mt-5 formheight">
+        <div class="col">
+          <h1 class="contacttext text-center" id="contact">Contact</h1>
+          <form
+            name="portfoliocontact"
+            method="POST"
+            data-netlify="true"
+            onSubmit="submit"
+          >
+            <div class="form-group">
+              <label for="name">Name</label>
+              <textarea
+                class="form-control"
+                placeholder="Name"
+                rows="1"
+              ></textarea>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email Address"
+              />
+              <label for="message">Message</label>
+              <textarea
+                class="form-control"
+                placeholder="Message"
+                rows="7"
+              ></textarea>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>

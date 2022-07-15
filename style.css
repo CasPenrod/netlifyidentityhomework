@@ -1,0 +1,133 @@
+.headshot {
+  width: 250px;
+  height: 350px;
+}
+
+.navbar {
+  list-style: none;
+}
+
+.img-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.img-bg {
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.img-content {
+  position: relative;
+  height: 250px;
+}
+
+.h1nav {
+  font-family: "League Gothic", sans-serif;
+  color: white;
+  text-shadow: 6px 2px 4px black;
+}
+
+h3 {
+  font-family: "League Gothic", sans-serif;
+  font-style: italic;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+#about {
+  font-size: 20px;
+  font-family: "Shadows Into Light", cursive;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.about {
+  inline-size: 50px;
+  text-align: right;
+}
+.mission {
+  font-weight: bold;
+  font-family: "Fascinate", cursive;
+  font-size: 25px;
+}
+
+.gitc {
+  width: 500px;
+  height: 200px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.middleimage {
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.middleimgcontent {
+  position: relative;
+  height: 175px;
+}
+
+#portfolio {
+  font-family: "League Gothic", sans-serif;
+  color: white;
+  text-shadow: 6px 2px 4px black;
+  margin-top: 10px;
+}
+
+.sdvwiki {
+  width: 650px;
+  height: 400px;
+  margin-left: 280px;
+  margin: right 0;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.recipepage {
+  width: 650px;
+  height: 400px;
+  margin-left: 0px;
+  margin: right 280px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.quoteimage {
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  height: 300px;
+  width: 100%;
+}
+
+.rowHeight {
+  height: 350px;
+  margin-bottom: 40px;
+}
+
+.formheight {
+  height: 700px;
+}
+
+#contact {
+  font-family: "League Gothic", sans-serif;
+  color: rgb(0, 0, 0);
+  text-shadow: 6px 2px 4px black;
+  margin-top: 10px;
+}
+
+.contactimgcontent {
+  position: relative;
+  height: 175px;
+}
+
+.contacttext {
+  font-family: "League Gothic", sans-serif;
+  color: rgb(0, 0, 0);
+}

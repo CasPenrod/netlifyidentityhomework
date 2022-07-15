@@ -1,3 +1,18 @@
+let app = angular.module("portfolioSignIn", ["ngRoute"]);
+
+app.config(function ($routeProvider) {
+  $routeProvider
+    .when("/", {
+      templateUrl: "login-signup.html.html",
+    })
+    .when("/", {
+      templateUrl: "index.html",
+    })
+    .when("/portfolio", {
+      templateUrl: "portfolio.html",
+    });
+});
+
 // Open the modal
 netlifyIdentity.open();
 
